@@ -4,7 +4,8 @@
   "description": "A project management app build with MERN and GraphQL",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server/index.js"
+    "start": "nodemon server/index.js",
+    "data:import": "node server/seeder"
   },
   "repository": {
     "type": "git",
